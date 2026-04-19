@@ -1,0 +1,31 @@
+/* Variables */
+:root {
+  /* Color Variables */
+  --primary-color: #FFFFFF;
+  --bg-color: #1f2937;
+  --text-color: #333;
+
+  /* Font Variables */
+  --main-font: 'roboto', Arial, sans-serif;
+  --base-font-size: 16px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+
+/* Globals */
+
+body {
+  margin: 0;
+}
+
+h1 {
+
+}
+
+h3 {
+
+}
+
