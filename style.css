@@ -34,3 +34,25 @@ h3 {
   font-family: var(--main-font)
 }
 
+/* Containers Styling */
+
+.header {
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+  }
+
+.links {
+  margin-right: 100px;
+  display: flex;
+  gap: 20px;
+}
