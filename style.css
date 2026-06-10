@@ -34,8 +34,17 @@ h3 {
   font-family: var(--main-font)
 }
 
-button
+.btn {
+  background-color: blue;
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
+.btn:hover {
+  opacity: 0.8;
+}
 /* Containers Styling */
 
 .header {
