@@ -23,7 +23,9 @@ body {
 }
 
 h1 {
-  font-family: var(--main-font)
+  font-family: var(--main-font);  
+  color: var(--primary-color);
+  margin: 0;
 }
 
 h2 {
@@ -32,6 +34,14 @@ h2 {
 
 h3 {
   font-family: var(--main-font)
+}
+
+p {
+  margin: 0;
+}
+
+.align-left {
+  text-align: left;
 }
 
 .btn {
@@ -70,4 +80,21 @@ h3 {
 
 .hero {
   background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+}
+
+.hero-info {
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+  padding: 10px 
+}
+
+.hero-image {
+  margin-right: 100px;
+  width: 600px;
+  height: 150px;
+  background-color:dimgrey;
+  padding: 30px;
 }
